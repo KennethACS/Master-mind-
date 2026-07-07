@@ -6,7 +6,7 @@ using namespace std;
 
 //Recibe puntajes desde los strucs de jugador 1 y 2
 //Recibe el modo de juego seleccionado, 1 o 2 jugadores
-void finalizarvideojuego(string puntaje_jugador1, string puntaje_jugador2, bool jugador2){
+void finalizarjuego(float puntaje_jugador1, float puntaje_jugador2, bool jugador2){
 
     //Esta funcion muetra un mensaje indicando que el juego finalizo 
     cout <<
@@ -34,17 +34,16 @@ void finalizarvideojuego(string puntaje_jugador1, string puntaje_jugador2, bool 
         <<"██║░░░░░╚██████╔╝██║░╚███║░░░██║░░░██║░░██║╚█████╔╝███████╗" <<endl
         <<"╚═╝░░░░░░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝" <<endl;
     //muestra el puntaje que obtuvo cada participante 
-    cout << "El jugador 1 tuvo:" << puntaje_jugador1 <<endl;
-    
-    if (jugador2 == true)
-    {
-      cout << "El jugador 2 tuvo:" << puntaje_jugador2 <<endl;
-    }
+    cout << "El jugador 1 tuvo: " << puntaje_jugador1 <<" puntos"<<endl;
+   if (jugador2 == true)
+   {
+      cout << "El jugador 2 tuvo: " << puntaje_jugador2 <<" puntos" <<endl;
+   }
     
     
      
     //Mensaje de agradecimiento 
-    cout<<" gracias por participar "<<endl;
+    cout<<"Muchas gracias por participar "<<endl;
 
     cout<<
           "░██████╗░██████╗░░█████╗░░█████╗░██╗░█████╗░░██████╗  ██████╗░░█████╗░██████╗░" <<endl
@@ -64,7 +63,7 @@ void finalizarvideojuego(string puntaje_jugador1, string puntaje_jugador2, bool 
 }
 
 //funcion que pide el puntaje de un participante 
-void mostrarpuntaje(string puntaje_jugador1, string puntaje_jugador2, bool jugador2){
+void mostrarpuntaje(float puntaje_jugador1, float puntaje_jugador2, bool jugador2){
    //funciones donde se pide el puntaje de los participantes y se guarda
    
    cout
@@ -75,10 +74,10 @@ void mostrarpuntaje(string puntaje_jugador1, string puntaje_jugador2, bool jugad
         <<"██║░░░░░╚██████╔╝██║░╚███║░░░██║░░░██║░░██║╚█████╔╝███████╗" <<endl
         <<"╚═╝░░░░░░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝" <<endl;
     //muestra el puntaje que obtuvo cada participante 
-   cout << "El jugador 1 tuvo:" << puntaje_jugador1 <<endl;
+   cout << "El jugador 1 tuvo: " << puntaje_jugador1 <<"puntos"<<endl;
    if (jugador2 == true)
    {
-      cout << "El jugador 2 tuvo:" << puntaje_jugador2 <<endl;
+      cout << "El jugador 2 tuvo: " << puntaje_jugador2 <<"puntos" <<endl;
    }
     
 
