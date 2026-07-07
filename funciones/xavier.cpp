@@ -10,11 +10,6 @@ int opc = 0;
 string categorias[3] = {"paises.txt", "ciencia.txt", "futbol.txt"};
 string categoria_seleccionada;
 
-int main() {
-    SetConsoleOutputCP(CP_UTF8);
-    mostrarMenu(); 
-    return 0;
-}
 
 void mostrarMenu() {
     Jugador usuario; 
