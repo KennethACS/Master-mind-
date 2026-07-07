@@ -1,4 +1,5 @@
-#include <iostream> 
+ #include <iostream> 
+ #include "JONATHAN.h"
 using namespace std;
 
 //funcion que muestra todos los puntajes finales de los 3 participantes del videojuego 
@@ -17,12 +18,5 @@ void finalizarvideojuego(int Puntos1, int Puntos2, int Puntos3){
       cout<<" gracias por participar "<<endl;
 
 
-      //Llama la funcion enviando los puntos obtenidos por los tres participantes 
-}
-int main (){
-    finalizarvideojuego(9,4,8);
-   
-    //Finaliza el programa 
 
-    return 0; 
 }
