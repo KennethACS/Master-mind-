@@ -1,4 +1,8 @@
 #ifndef JONATHAN_H
 #define JONATHAN_H
-void finalizarvideojuego(int puntos1, int puntos2, int puntos3);
+using namespace std;
+void finalizarvideojuego(string puntaje_jugador1, string puntaje_jugador2, bool jugador2);
+void mostrarpuntaje(string puntaje_jugador1, string puntaje_jugador2, bool jugador2);
+
+
 #endif
