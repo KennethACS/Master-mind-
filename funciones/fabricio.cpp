@@ -104,3 +104,4 @@ void actualizarPuntaje(int& puntaje, int respuestaJugador, int respuestaCorrecta
  
     cout << "Puntaje: " << puntaje << endl;
 }
+
