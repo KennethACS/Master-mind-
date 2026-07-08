@@ -12,7 +12,7 @@ struct Pregunta {
     string categoria;
     string enunciado;
     string opciones[4];
-    int respuestaCorrecta; // numero de 1 a 4
+    char respuestaCorrecta; // numero de 1 a 4
 };
  
 // Limpia la pantalla y muestra el titulo del juego
