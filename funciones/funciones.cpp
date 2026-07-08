@@ -6,7 +6,7 @@
 #include <windows.h>
 #include "funciones.h"
 #include <fstream>
-#include <cstdlib>
+#include <cstdlib> //Añade funciones con unico proposito
 #include <string>
 
 using namespace std;
