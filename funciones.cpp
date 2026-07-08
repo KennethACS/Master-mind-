@@ -92,7 +92,13 @@ int cargarPreguntasDesdeArchivo(string nombreArchivo, Pregunta preguntas[], int 
 void actualizarPuntaje(int& puntaje, int respuestaJugador, int respuestaCorrecta) {
     if (respuestaJugador == respuestaCorrecta) {
         puntaje = puntaje + 10;
+       cout<<"Correcto, sumaste puntos"<<endl;
+
     }
+    else{
+        cout<<"incorrecto, no sumaste puntos"<<endl;
+    }
+    
  
     cout << "Puntaje: " << puntaje << endl;
 }
