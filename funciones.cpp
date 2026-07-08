@@ -11,7 +11,7 @@ using namespace std;
 //
 // limpiarPantalla
 // Borra la pantalla y muestra el titulo del juego
-void limpiarPantalla() {
+void limpiarPantalla() { //Inicio funcion creada con IA
     // Borrar la pantalla (comando distinto segun el sistema operativo)
 #ifdef SISTEMA_WINDOWS
     system("cls");
@@ -23,7 +23,7 @@ void limpiarPantalla() {
     cout << "========================================" << endl;
     cout << "         MASTERMIND " << endl;
     cout << "========================================" << endl;
-}
+} //Final funcion creada por IA
  
 
 // cargarPreguntasDesdeArchivo
