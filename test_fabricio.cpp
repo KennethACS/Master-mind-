@@ -4,7 +4,6 @@ using namespace std;
  
 int main() {
 
-    SetConsoleOutputCP()
 
     Pregunta preguntas[MAX_PREGUNTAS];
  
