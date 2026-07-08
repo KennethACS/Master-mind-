@@ -26,12 +26,21 @@ int main() {
         cout << preguntas[i].enunciado << endl << endl;
  
         for (int j = 0; j < 4; j++) {
-            cout << j + 1 << ". " << preguntas[i].opciones[j] << endl;
+            cout << letras[j] << ". " << preguntas[i].opciones[j] << endl;
         }
  
-        int respuesta;
+      
+        char letrarespuesta;
+        int respuesta =0;
+        
         cout << "\nTu respuesta: ";
-        cin >> respuesta;
+        cin >> letrarespuesta;
+
+        for(int l=0; l < 4; l++){
+            if(letrarespuesta == letra[l]){
+                letrarespuesta = l + 1;
+            }
+        }
  
         actualizarPuntaje(puntaje, respuesta, preguntas[i].respuestaCorrecta);
  
