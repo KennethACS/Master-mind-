@@ -14,13 +14,13 @@ struct Jugador{
 };
 //Xavier
 void mostrarMenu();
-void iniciarJuego(string categoria);
-void guardarResultados();
-void repetirRespuesta(char respuesta_jugador);
+void iniciarJuego(string categoria, bool existeJugador2);
+void guardarResultados(int puntajeJugador1, int puntajeJugador2, bool jugador2);
+char repetirRespuesta(char respuesta_jugador);
 
 //kenneth
-void obtenerPreguntaAleatoria(string preguntas_entrada[], string respuestas_entrada[], string preguntas_salida[], string respuestas_salida[], int tamanoArray);
-bool verificar_respuesta(int indice, string respuestas[], string respuesta_usuario);
+void obtenerPreguntaAleatoria(string preguntas_entrada[], char respuestas_entrada[], string preguntas_salida[], char respuestas_salida[], int tamanoArray);
+bool verificar_respuesta(int indice, char respuestas[], char respuesta_usuario);
 void mostrar_pregunta(int indice, string preguntas[]);
 void imprimir_titulo(int indice);
 
@@ -34,8 +34,8 @@ struct Pregunta {
     int respuestaCorrecta; 
 };
 void limpiarPantalla();
-int cargarPreguntasDesdeArchivo(string nombreArchivo, Pregunta preguntas[], int maximo);
-void actualizarPuntaje(int& puntaje, int respuestaJugador, int respuestaCorrecta);
+void cargarPreguntasDesdeArchivo(string preguntas[],char respuestas[],int &cantidadPreguntas, string nombreArchivo);
+void actualizarPuntaje(int &puntaje, int numjugador, bool estado);
 
 
 //jonathan

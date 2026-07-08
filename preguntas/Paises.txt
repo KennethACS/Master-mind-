@@ -27,7 +27,7 @@ b
 Egipto se encuentra completamente en el continente africano
 a) Verdadero
 b) Falso
-b) 
+b
 
 ¿Cuál es el único país que es también un continente?
 a) Groenlandia
@@ -47,12 +47,14 @@ Suiza es miembro de la Unión Europea
 a) Verdadero
 b) Falso
 b
+
 ¿Cuál es el país más pequeño del mundo?
 a) Mónaco
 b) San Marino
 c) Ciudad del Vaticano
 d) Liechtenstein
 c
+
 ¿En qué país se encuentra Machu Picchu?
 a) Bolivia
 b) Ecuador

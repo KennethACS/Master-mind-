@@ -8,14 +8,14 @@ b
 El sushi se originó en Japón
 a) Verdadero
 b) Falso
-a 
+a
 
 ¿Qué país es famoso por inventar la pizza margarita?
 a) España
 b) Francia
 c) Italia
 d) Grecia
-c 
+c
 
 ¿Cuál de estos quesos es originario de Francia?
 a) Cheddar
@@ -46,7 +46,7 @@ b
 El chocolate blanco contiene cacao sólido
 a) Verdadero
 b) Falso
-b 
+b
 
 ¿Cuál de estas frutas es técnicamente una baya (berry)?
 a) Fresa
