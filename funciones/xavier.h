@@ -17,5 +17,5 @@ struct Jugador {
 void mostrarMenu();
 void iniciarJuego(string categoria);
 void guardarResultados();
-
+void repetirRespuesta(char respuesta_jugador);
 #endif
