@@ -69,9 +69,9 @@ int cargarPreguntasDesdeArchivo(string nombreArchivo, Pregunta preguntas[], int 
         getline(archivo, p.opciones[2]);
         getline(archivo, p.opciones[3]);
  
-        string numero;
-        getline(archivo, numero);
-        p.respuestaCorrecta = stoi(numero);
+      archivo>>p.respuestaCorrecta;
+        archivo.ignore();
+ 
  
         preguntas[total] = p;
         total++;
